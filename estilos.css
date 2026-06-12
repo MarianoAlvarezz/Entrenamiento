@@ -1,0 +1,91 @@
+
+body {
+    background-color: #e1ecf8;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #162436;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu_navegacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_navegacion li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.menu_navegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_navegacion a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#info_entrenamiento {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.lista_pasos {
+    margin-top: 15px;
+}
+
+.imagen_entrenamiento {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.formulario_consulta {
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.formulario_consulta label {
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario_consulta input,
+.formulario_consulta select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.boton_form {
+    background-color: #162436;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.boton_form:hover {
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
